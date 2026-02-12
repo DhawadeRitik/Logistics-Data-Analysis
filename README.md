@@ -1,193 +1,132 @@
 # 🚛 SwiftRoute Logistics Analytics Dashboard  
-### End-to-End Power BI + SQL Business Intelligence Project  
+### Power BI | SQL | DAX | End-to-End Business Intelligence Project  
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Summary
 
-SwiftRoute Logistics Analytics is an end-to-end Business Intelligence solution designed to analyze logistics operations across **Orders, Hubs, Drivers, and Fleet Vehicles**.
+SwiftRoute Logistics Analytics is a full-scale Business Intelligence solution built to analyze logistics operations across **Orders, Hubs, Drivers, and Fleet Vehicles**.
 
-The objective of this project was to transform raw operational data into actionable insights using:
-
-- **Microsoft SQL Server** (Data validation & KPI verification)
-- **Power BI** (Dashboard development & visualization)
-- **DAX** (Advanced KPI calculations & Time Intelligence)
-- **Star Schema Data Modeling**
-
-The dashboard enables stakeholders to monitor performance, detect inefficiencies, and support data-driven decision-making.
+This project demonstrates the complete BI workflow:
+**Data Validation (SQL) → Data Modeling (Star Schema) → KPI Engineering (DAX) → Executive Dashboarding (Power BI).**
 
 ---
 
-## 🎯 Business Objectives
+## 🎯 Business Impact
 
-- Monitor On-Time Delivery performance  
-- Track Month-over-Month operational growth  
-- Identify overloaded hubs  
-- Analyze driver performance & delay patterns  
-- Optimize fleet utilization & maintenance planning  
-- Improve customer satisfaction  
-
----
-
-## 📊 Dashboard Structure
-
-The report is divided into **4 analytical views**:
+✔ Monitored **On-Time Delivery Rate (OTDR %)** to improve SLA compliance  
+✔ Identified **overloaded hubs** operating above capacity  
+✔ Detected **high-delay drivers and vehicle models**  
+✔ Analyzed **Month-over-Month operational growth trends**  
+✔ Evaluated **vehicle age vs breakdown frequency** for predictive planning  
 
 ---
+
+## 📊 Dashboard Highlights
 
 ### 1️⃣ Executive Overview
+- Total Orders  
+- OTDR %  
+- CSAT %  
+- Avg Delivery Time  
+- MoM Growth %  
+- Dynamic Time Intelligence  
 
-#### 🔹 Key KPIs
-- 📦 Total Orders  
-- ⏱ On-Time Delivery Rate (OTDR %)  
-- ⭐ Customer Satisfaction (CSAT %)  
-- 🚚 Average Delivery Time (Hours)  
-- 📈 Month-over-Month Growth %
+### 2️⃣ Hub Performance
+- Capacity vs Orders  
+- Hub Ranking (RANKX)  
+- Processing Heatmaps  
+- Underperformance Detection  
 
-#### 🔹 Features
-- Previous Month comparison  
-- Dynamic KPI cards  
-- DAX Time Intelligence  
-- Trend analysis  
-
----
-
-### 2️⃣ Hub Performance Analysis
-
-#### 🔹 Insights
-- Orders Processed vs Hub Capacity  
-- Hub Ranking by OTDR  
-- Processing Time Heatmap (Day-wise)  
-- Underperforming Hub Identification  
-
-#### 🔹 Business Impact
-- Redistribute operational load  
-- Improve SLA compliance  
-- Optimize regional operations  
-
----
-
-### 3️⃣ Driver Performance Dashboard
-
-#### 🔹 Insights
-- Experience vs Rating (Scatter Analysis)  
-- Drivers with Highest Delay Rates  
+### 3️⃣ Driver Analytics
+- Experience vs Rating Scatter  
+- Delay Rate Analysis  
 - Monthly Delivery Trends  
-- Individual Driver Profile Summary  
+- Driver KPI Profiles  
 
-#### 🔹 Business Impact
-- Identify training needs  
-- Improve workforce efficiency  
-- Reduce delivery delays  
-
----
-
-### 4️⃣ Fleet & Vehicle Analysis
-
-#### 🔹 Insights
+### 4️⃣ Fleet Intelligence
 - Active vs Maintenance Vehicles  
-- Orders by Vehicle Type & Model  
-- Vehicle Age vs Breakdown Frequency  
 - Breakdown Analysis by Model  
-
-#### 🔹 Business Impact
-- Predictive maintenance planning  
-- Fleet optimization  
-- Cost reduction  
+- Vehicle Age Risk Correlation  
 
 ---
 
-## 🗂 Data Modeling Approach
+## 🗂 Data Architecture
 
-The project follows a **Star Schema Architecture**.
+**Star Schema Model**
 
-### 🔹 Fact Table
+**Fact Table**
 - `Fact_Orders`
 
-### 🔹 Dimension Tables
+**Dimension Tables**
 - `Dim_Driver`
 - `Dim_Hub`
 - `Dim_Vehicle`
 - `Dim_Date`
 
-### 🔹 Benefits
-- Improved performance  
-- Clean relationships  
-- Optimized DAX calculations  
-- Scalable design  
+Optimized for performance, scalability, and efficient DAX calculations.
 
 ---
 
-## 🛠 SQL Data Validation & Engineering
+## 🛠 Technical Implementation
 
-Before building the dashboards, the dataset was validated in **SQL Server**.
-
-### 🔹 Data Validation Steps
-- Duplicate record checks  
-- NULL value validation  
-- Data type verification  
-- Aggregation cross-verification  
-- Month-over-Month KPI validation  
+### 🔹 SQL Engineering
+- CTE-based KPI validation  
+- Window functions (`RANK() OVER()`)  
 - Defensive division using `NULLIF()`  
-- CTE-based KPI calculations  
-- Window functions for ranking  
+- Data quality checks (NULLs, duplicates, data types)  
+- Aggregation cross-verification  
 
-### 🔹 Example SQL Techniques Used
-- `WITH CTE`
-- `COUNT(CASE WHEN ...)`
-- `RANK() OVER()`
-- `GROUP BY`
-- `TRY_CONVERT()`
-- `NULLIF()`
-
-All Power BI KPIs were cross-verified in SQL for accuracy.
-
----
-
-## 📐 DAX Techniques Used
-
+### 🔹 Advanced DAX
 - `CALCULATE()`
 - `RANKX()`
 - `SELECTEDVALUE()`
 - `DATESINPERIOD()`
 - `PREVIOUSMONTH()`
 - `DIVIDE()`
-- `SUMMARIZE()`
-- Dynamic Measures
-- Time Intelligence
-- Context Transition
+- Context Transition  
+- Time Intelligence  
+
+All KPIs were cross-validated between SQL and Power BI for accuracy.
 
 ---
 
-## 📈 Key Analytical Insights
+## 📈 Key Insights Generated
 
-- Certain hubs consistently operate above capacity.  
-- Higher vehicle age correlates with increased breakdown frequency.  
-- Driver experience does not always guarantee higher rating.  
-- Delay rates are concentrated among specific hubs and vehicle models.  
-- MoM performance trends highlight operational volatility.  
+- Certain hubs consistently exceed operational capacity.  
+- Older vehicles show higher breakdown frequency.  
+- Driver experience does not always correlate with higher ratings.  
+- Delay concentration is linked to specific hubs and vehicle models.  
+- MoM trends reveal operational volatility patterns.  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tool        | Purpose                          |
-|-------------|----------------------------------|
-| Power BI    | Dashboard & Visualization        |
-| DAX         | KPI & Time Intelligence          |
-| SQL Server  | Data Cleaning & Validation       |
-| Star Schema | Data Modeling                    |
+| Tool        | Usage |
+|-------------|--------|
+| Power BI    | Dashboard Development |
+| DAX         | KPI Engineering |
+| SQL Server  | Data Validation & Analysis |
+| Star Schema | Data Modeling |
 
 ---
 
-## 🚀 How to Use This Project
+## 🚀 What This Project Demonstrates
 
-1. Download the `.pbix` file  
-2. Open in Power BI Desktop  
-3. Connect to the provided SQL script (if required)  
-4. Explore the dashboard pages  
+✔ End-to-End BI Development  
+✔ Business-Oriented KPI Thinking  
+✔ Advanced DAX & Time Intelligence  
+✔ SQL + BI Integration  
+✔ Analytical Storytelling  
+✔ Industry-Ready Dashboard Design  
 
 ---
 
-## 📂 Repository Structure
+## 👨‍💻 Author
+
+**Ritik Dhawade**  
+Aspiring Data Analyst | Power BI | SQL | DAX | Business Intelligence  
+
+📩 Open to Data Analyst / BI opportunities  
 
