@@ -23,6 +23,21 @@ This project demonstrates the complete BI workflow:
 ---
 
 ## 📊 Dashboard Highlights
+---
+## 🖼 Dashboard Screenshots
+
+### 📌 Executive Overview
+<img width="1111" height="705" alt="image" src="https://github.com/user-attachments/assets/02751720-c145-4776-a473-1fbb8fa21a1d" />
+
+### 📌 Hub Performance Analysis
+![Hub Analysis](Hub_Analysis.png)
+
+### 📌 Driver Performance Dashboard
+![Driver Analysis](Driver_Analysis.png)
+
+### 📌 Fleet & Vehicle Analysis
+![Vehicle Analysis](Vehicle_Analysis.png)
+
 
 ### 1️⃣ Executive Overview
 - Total Orders  
