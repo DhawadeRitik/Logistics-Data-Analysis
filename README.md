@@ -35,7 +35,7 @@ Improve customer satisfaction
 The report is divided into 4 analytical views:
 
 1️⃣ Executive Overview
-Key KPIs:
+🔹 Key KPIs:
 
 📦 Total Orders
 
@@ -47,7 +47,7 @@ Key KPIs:
 
 📈 Month-over-Month Growth %
 
-Key Features:
+🔹 Key Features:
 
 Previous Month comparison
 
@@ -58,7 +58,7 @@ Time Intelligence using DAX
 Trend analysis
 
 2️⃣ Hub Performance Analysis
-Insights:
+🔹 Insights:
 
 Orders Processed vs Hub Capacity
 
@@ -68,7 +68,7 @@ Processing Time Heatmap (Day-wise)
 
 Underperforming Hub Identification
 
-Business Value:
+🔹 Business Value:
 
 Helps management:
 
@@ -79,7 +79,7 @@ Improve SLA compliance
 Optimize regional operations
 
 3️⃣ Driver Performance Dashboard
-Insights:
+🔹 Insights:
 
 Experience vs Rating (Scatter Analysis)
 
@@ -89,7 +89,7 @@ Monthly Delivery Trends
 
 Individual Driver Profile Summary
 
-Business Value:
+🔹 Business Value:
 
 Identify training needs
 
@@ -98,7 +98,7 @@ Improve workforce efficiency
 Reduce delivery delays
 
 4️⃣ Fleet & Vehicle Analysis
-Insights:
+🔹 Insights:
 
 Active vs Maintenance Vehicles
 
@@ -108,7 +108,7 @@ Vehicle Age vs Breakdown Frequency
 
 Breakdown Analysis by Model
 
-Business Value:
+🔹 Business Value:
 
 Predictive maintenance planning
 
@@ -120,11 +120,11 @@ Cost reduction
 
 The project follows a Star Schema Architecture:
 
-Fact Table:
+🔹 Fact Table:
 
 Fact_Orders
 
-Dimension Tables:
+🔹 Dimension Tables:
 
 Dim_Driver
 
@@ -134,7 +134,7 @@ Dim_Vehicle
 
 Dim_Date
 
-Benefits:
+🔹 Benefits:
 
 Improved performance
 
@@ -146,9 +146,9 @@ Scalable design
 
 🛠 SQL Data Validation & Engineering
 
-Before building dashboards, the dataset was validated in SQL Server:
+Before building dashboards, the dataset was validated in SQL Server.
 
-Performed:
+🔹 Performed:
 
 Duplicate record checks
 
@@ -160,13 +160,13 @@ Aggregation cross-verification
 
 Month-over-Month KPI validation
 
-Defensive division using NULLIF
+Defensive division using NULLIF()
 
 CTE-based KPI calculations
 
 Window functions for ranking
 
-Example Techniques Used:
+🔹 Example Techniques Used:
 
 WITH CTE
 
@@ -224,7 +224,7 @@ SQL Server	Data Cleaning & Validation
 Star Schema	Data Modeling
 🚀 How to Use This Project
 
-Download .pbix file
+Download the .pbix file
 
 Open in Power BI Desktop
 
@@ -233,15 +233,15 @@ Connect to provided SQL script (if needed)
 Explore dashboard pages
 
 📂 Repository Structure
-📁 SwiftRoute-Logistics-Analytics
- ├── README.md
- ├── SwiftRoute_Dashboard.pbix
- ├── SQL_Validation_Scripts.sql
- ├── Data_Model_Diagram.png
- ├── Executive_Dashboard.png
- ├── Hub_Analysis.png
- ├── Driver_Analysis.png
- ├── Vehicle_Analysis.png
+SwiftRoute-Logistics-Analytics
+├── README.md
+├── SwiftRoute_Dashboard.pbix
+├── SQL_Validation_Scripts.sql
+├── Data_Model_Diagram.png
+├── Executive_Dashboard.png
+├── Hub_Analysis.png
+├── Driver_Analysis.png
+├── Vehicle_Analysis.png
 
 💡 What This Project Demonstrates
 
@@ -269,4 +269,4 @@ Add drill-through pages
 Ritik Dhawade
 Aspiring Data Analyst | Power BI | SQL | DAX | Business Intelligence
 
-Open to Data Analyst / BI opportunities.
+📩 Open to Data Analyst / BI opportunities
