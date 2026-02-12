@@ -31,15 +31,12 @@ This project demonstrates the complete BI workflow:
 
 ### 📌 Hub Performance Analysis
 <img width="1098" height="687" alt="image" src="https://github.com/user-attachments/assets/66f45dda-5432-4f26-9b95-d1c71fef4319" />
-<img width="1098" height="687" alt="image" src="https://github.com/user-attachments/assets/66f45dda-5432-4f26-9b95-d1c71fef4319" />
 
 
 ### 📌 Driver Performance Dashboard
 <img width="1057" height="662" alt="image" src="https://github.com/user-attachments/assets/fe14aadd-6465-4418-8972-8c0621ef5b7c" />
-<img width="1057" height="662" alt="image" src="https://github.com/user-attachments/assets/fe14aadd-6465-4418-8972-8c0621ef5b7c" />
 
 ### 📌 Fleet & Vehicle Analysis
-<img width="1096" height="663" alt="image" src="https://github.com/user-attachments/assets/b3aec2fd-7673-4930-8564-51639a0223bc" />
 <img width="1096" height="663" alt="image" src="https://github.com/user-attachments/assets/b3aec2fd-7673-4930-8564-51639a0223bc" />
 
 ### 1️⃣ Executive Overview
