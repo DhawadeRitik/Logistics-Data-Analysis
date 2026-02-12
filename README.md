@@ -30,14 +30,17 @@ This project demonstrates the complete BI workflow:
 <img width="1111" height="705" alt="image" src="https://github.com/user-attachments/assets/02751720-c145-4776-a473-1fbb8fa21a1d" />
 
 ### 📌 Hub Performance Analysis
-![Hub Analysis](Hub_Analysis.png)
+<img width="1098" height="687" alt="image" src="https://github.com/user-attachments/assets/66f45dda-5432-4f26-9b95-d1c71fef4319" />
+<img width="1098" height="687" alt="image" src="https://github.com/user-attachments/assets/66f45dda-5432-4f26-9b95-d1c71fef4319" />
+
 
 ### 📌 Driver Performance Dashboard
-![Driver Analysis](Driver_Analysis.png)
+<img width="1057" height="662" alt="image" src="https://github.com/user-attachments/assets/fe14aadd-6465-4418-8972-8c0621ef5b7c" />
+<img width="1057" height="662" alt="image" src="https://github.com/user-attachments/assets/fe14aadd-6465-4418-8972-8c0621ef5b7c" />
 
 ### 📌 Fleet & Vehicle Analysis
-![Vehicle Analysis](Vehicle_Analysis.png)
-
+<img width="1096" height="663" alt="image" src="https://github.com/user-attachments/assets/b3aec2fd-7673-4930-8564-51639a0223bc" />
+<img width="1096" height="663" alt="image" src="https://github.com/user-attachments/assets/b3aec2fd-7673-4930-8564-51639a0223bc" />
 
 ### 1️⃣ Executive Overview
 - Total Orders  
